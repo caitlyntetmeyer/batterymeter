@@ -1,0 +1,24 @@
+{ 
+  "name": "batterymeter",
+  "version": "1.0.0",
+  "description": "Battery meter for your desktop",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caitlyn Tetmeyer",
+  "license": "MIT",
+  "devDependencies": {
+    "nw": "^0.14.7-sdk"
+  },
+  "dependencies": {
+    "systeminformation": "^3.23.7",
+    "vue": "^2.4.2"
+  },
+  "window": {
+    "width": 430,
+    "height": 350,
+    "icon": "icon.png"
+  }
+}

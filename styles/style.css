@@ -1,0 +1,36 @@
+body {
+    font-family: tahoma, sans-serif;
+    text-align: center;
+}
+h2 {
+    margin: 20px 0px;
+    font-size: 40px;
+}
+meter {
+    width: 270px;
+    height: 30px;
+}
+h1 {
+    margin: 20px 0px;
+    color: #030;
+    font-size: 60px;
+    font-weight: bold;
+}
+img,
+.percent {
+    max-height: 60px;
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+.charging {
+    color: #797;
+    font-style: italic;
+}
+.charging,
+.cycle {
+    margin-bottom: 10px;
+}
+.updated {
+    opacity: 0.0;
+    transition: 2s ease all;
+}
